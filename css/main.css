@@ -575,9 +575,6 @@ margin-left: 6px;
 /* ===============================meet===================================================== */
 /* ===========================event============================================= */
 
-.event_small{
-    
-}
 .event_small_title{
     font-family: DM Sans;
     font-style: normal;
@@ -875,9 +872,213 @@ line-height: 155%;
 color: #555555;
 }
 
+.say_list{
+    list-style-type: none;
+}
+.say_box_link{
+    text-decoration: none;
+    border: 1px solid #D5D4D4;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.say_link{
+    text-decoration: none;
+    background: #086CF9;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 17px;
+}
+
+/* ======================================say============================ */
+/* ===============================================what==================================+= */
 
 
+.what{
+    width: 939px;
+    background: #086CF9;
+border-radius: 6px;
+margin: 0 auto;
+margin-bottom: 128px;
+padding-top: 48px;
+padding-bottom: 64px;
+}
+.what_title{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+color: #FCFCFC;
+margin-bottom: 12px;
+text-align: center;
+}
+.what_text{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 155%;
+text-align: center;
+color: #F9F9F9;
+margin-bottom: 40px;
+max-width: 491px;
+margin: 0 auto;
+margin-bottom: 40px;
+}
+.what_box_big{
+    display: flex;
+    width: 538px;
+    height: 64px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    background: #FFFFFF;
+margin: 0 auto;
+align-items: center;
+justify-content: space-between;
+}
+.what_input{
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding-left: 24px;
+}
+.what_input::placeholder{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 155%;
+color: #555555;
+}
+.what_button{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+background: #086CF9;
+border-radius: 4px;
+padding: 12px 20px;
+border: 0;
+outline: 0;
+margin-right: 8px;
+}
+/* ===========================================follow================================ */
+.follow_us{
+    background: #D3E5FE;
+    padding-bottom: 80px;
+    padding-top: 60px;
+}
+.follow{
+    display: flex;
+}
+.follow_site{
+    text-decoration: none;
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 39px;
+color: #222222;
+margin-bottom: 24px;
+}
+.follow_big{
+    width: 360px;
+    margin-right: 92px;
+}
+.follow_big_text{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 155%;
+color: #555555;
+max-width: 360px;
+margin-bottom: 32px;
+}
+.follow_big_title{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 39px;
+color: #222222;
+margin-bottom: 24px;
+}
+.follow_big_link{
+    display: flex;
+    align-items: center;
+    width: 240px;
+    justify-content: space-between;
+}
+.follow_big_box_link_images{
+    margin-right: 15.5px;
+}
+.follow_big_link_link{
+   text-decoration: none;
+   background: #FFFFFF;
+   border-radius: 4px;
+   width: 48px;
+   height: 48px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 
+}
+
+.follow_big_box{
+    display: flex;
+}
+.follow_big_box_list{
+    list-style-type: none;
+    width: 194px;
+}
+.follow_big_box_list_one{
+    list-style-type: none;
+    width: 119px;
+    margin-left: 92px;
+}
+.follow_big_box_list_twu{
+    list-style-type: none;
+    width: 203px;
+    margin-left: 92px;
+}
+.follow_big_box_list_link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+color: #444444;
+width: 203px;
+margin-bottom: 16px;
+}
+.follow_big_box_list_title{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 39px;
+color: #222222;
+width: 194px;
+margin-bottom: 24px;
+}
 
 
 
